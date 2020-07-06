@@ -1,6 +1,0 @@
-framework module Pods_ApoloTest {
-  umbrella header "Pods-ApoloTest-umbrella.h"
-
-  export *
-  module * { export * }
-}
