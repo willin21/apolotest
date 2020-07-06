@@ -32,7 +32,7 @@ Versión 1.0.0
 
 ## Autores ✒️
 
-Prueba enviada por CEET
+Prueba creada por CEET y
 Desarrollada por William Antonio Niño
 
 ## Licencia 📄
