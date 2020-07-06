@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270CA7C024B151E6002FF8BB /* MetaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CA7BF24B151E6002FF8BB /* MetaDataModel.swift */; };
+		270CA7C424B15661002FF8BB /* NetworkingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CA7C324B15661002FF8BB /* NetworkingDataManager.swift */; };
+		270CA7C624B15C06002FF8BB /* ApoloListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CA7C524B15C06002FF8BB /* ApoloListViewModel.swift */; };
+		270CA7C924B16041002FF8BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CA7C824B16041002FF8BB /* Constants.swift */; };
+		27A9B95124B1767E008126FC /* apoloItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9B94F24B1767E008126FC /* apoloItemTableViewCell.swift */; };
+		27A9B95224B1767E008126FC /* apoloItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A9B95024B1767E008126FC /* apoloItemTableViewCell.xib */; };
+		27A9B95524B180F6008126FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9B95424B180F6008126FC /* DetailViewController.swift */; };
+		27A9B95724B18120008126FC /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A9B95624B18120008126FC /* Detail.storyboard */; };
+		27CB586E24B2075A00E1D367 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB586D24B2075A00E1D367 /* BaseViewController.swift */; };
+		27CB587124B2262600E1D367 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB587024B2262600E1D367 /* UserDefaultsHelper.swift */; };
+		27CB587424B29D3100E1D367 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB587324B29D3000E1D367 /* SplashViewController.swift */; };
+		27CB587724B2A08500E1D367 /* rocketFast.json in Resources */ = {isa = PBXBuildFile; fileRef = 27CB587624B2A08500E1D367 /* rocketFast.json */; };
 		27F1EB4A24B14C2100F97387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB4924B14C2100F97387 /* AppDelegate.swift */; };
 		27F1EB4C24B14C2100F97387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB4B24B14C2100F97387 /* SceneDelegate.swift */; };
-		27F1EB4E24B14C2100F97387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB4D24B14C2100F97387 /* ViewController.swift */; };
+		27F1EB4E24B14C2100F97387 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB4D24B14C2100F97387 /* HomeViewController.swift */; };
 		27F1EB5124B14C2200F97387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F1EB4F24B14C2200F97387 /* Main.storyboard */; };
 		27F1EB5324B14C2400F97387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F1EB5224B14C2400F97387 /* Assets.xcassets */; };
 		27F1EB5624B14C2400F97387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F1EB5424B14C2400F97387 /* LaunchScreen.storyboard */; };
 		27F1EB6124B14C2500F97387 /* ApoloTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB6024B14C2500F97387 /* ApoloTestTests.swift */; };
 		27F1EB6C24B14C2500F97387 /* ApoloTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1EB6B24B14C2500F97387 /* ApoloTestUITests.swift */; };
+		594DB26B57A27F2778E4582E /* Pods_ApoloTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FC5DBACB59461D102ED606 /* Pods_ApoloTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED1775F52AEB4440F3F81C9 /* Pods-ApoloTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApoloTest.release.xcconfig"; path = "Target Support Files/Pods-ApoloTest/Pods-ApoloTest.release.xcconfig"; sourceTree = "<group>"; };
+		16FC5DBACB59461D102ED606 /* Pods_ApoloTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApoloTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270CA7BF24B151E6002FF8BB /* MetaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataModel.swift; sourceTree = "<group>"; };
+		270CA7C324B15661002FF8BB /* NetworkingDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingDataManager.swift; sourceTree = "<group>"; };
+		270CA7C524B15C06002FF8BB /* ApoloListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloListViewModel.swift; sourceTree = "<group>"; };
+		270CA7C824B16041002FF8BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27A9B94F24B1767E008126FC /* apoloItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apoloItemTableViewCell.swift; sourceTree = "<group>"; };
+		27A9B95024B1767E008126FC /* apoloItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = apoloItemTableViewCell.xib; sourceTree = "<group>"; };
+		27A9B95424B180F6008126FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27A9B95624B18120008126FC /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		27CB586D24B2075A00E1D367 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27CB587024B2262600E1D367 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		27CB587324B29D3000E1D367 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		27CB587624B2A08500E1D367 /* rocketFast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocketFast.json; sourceTree = "<group>"; };
 		27F1EB4624B14C2100F97387 /* ApoloTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApoloTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F1EB4924B14C2100F97387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F1EB4B24B14C2100F97387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27F1EB4D24B14C2100F97387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27F1EB4D24B14C2100F97387 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		27F1EB5024B14C2200F97387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27F1EB5224B14C2400F97387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F1EB5524B14C2400F97387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +76,7 @@
 		27F1EB6724B14C2500F97387 /* ApoloTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApoloTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F1EB6B24B14C2500F97387 /* ApoloTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApoloTestUITests.swift; sourceTree = "<group>"; };
 		27F1EB6D24B14C2500F97387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654DB2E02CD0F9E588AEF71F /* Pods-ApoloTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApoloTest.debug.xcconfig"; path = "Target Support Files/Pods-ApoloTest/Pods-ApoloTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594DB26B57A27F2778E4582E /* Pods_ApoloTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270CA7BE24B14FF0002FF8BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				270CA7BF24B151E6002FF8BB /* MetaDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		270CA7C124B1542D002FF8BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				270CA7C524B15C06002FF8BB /* ApoloListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		270CA7C224B15606002FF8BB /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				270CA7C324B15661002FF8BB /* NetworkingDataManager.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		270CA7C724B1601E002FF8BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27CB587524B2A03C00E1D367 /* json */,
+				27A9B94C24B175F8008126FC /* TableView */,
+				270CA7C824B16041002FF8BB /* Constants.swift */,
+				27F1EB5224B14C2400F97387 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		270CA7CA24B167A8002FF8BB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				27CB587224B29D0F00E1D367 /* Splash */,
+				27A9B95324B17FE8008126FC /* Detail */,
+				270CA7CB24B167FF002FF8BB /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		270CA7CB24B167FF002FF8BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				27F1EB4D24B14C2100F97387 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		27A9B94C24B175F8008126FC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				27A9B94E24B1761F008126FC /* Cells */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		27A9B94D24B17612008126FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				27A9B94F24B1767E008126FC /* apoloItemTableViewCell.swift */,
+				27A9B95024B1767E008126FC /* apoloItemTableViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		27A9B94E24B1761F008126FC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27A9B94D24B17612008126FC /* Home */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		27A9B95324B17FE8008126FC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				27A9B95424B180F6008126FC /* DetailViewController.swift */,
+				27A9B95624B18120008126FC /* Detail.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		27CB586C24B2073E00E1D367 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				27CB586D24B2075A00E1D367 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		27CB586F24B2260800E1D367 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27CB587024B2262600E1D367 /* UserDefaultsHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		27CB587224B29D0F00E1D367 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				27CB587324B29D3000E1D367 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		27CB587524B2A03C00E1D367 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				27CB587624B2A08500E1D367 /* rocketFast.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 		27F1EB3D24B14C2100F97387 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +231,8 @@
 				27F1EB5F24B14C2500F97387 /* ApoloTestTests */,
 				27F1EB6A24B14C2500F97387 /* ApoloTestUITests */,
 				27F1EB4724B14C2100F97387 /* Products */,
+				E747B199E883F3FBEBA6F8F1 /* Pods */,
+				8AC738339FD27D5149D2AA26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +249,18 @@
 		27F1EB4824B14C2100F97387 /* ApoloTest */ = {
 			isa = PBXGroup;
 			children = (
+				27CB586C24B2073E00E1D367 /* Base */,
+				27CB586F24B2260800E1D367 /* Helper */,
+				270CA7C224B15606002FF8BB /* DataSource */,
+				270CA7BE24B14FF0002FF8BB /* Model */,
+				270CA7C724B1601E002FF8BB /* Resources */,
+				270CA7CA24B167A8002FF8BB /* Sections */,
+				270CA7C124B1542D002FF8BB /* ViewModel */,
 				27F1EB4924B14C2100F97387 /* AppDelegate.swift */,
-				27F1EB4B24B14C2100F97387 /* SceneDelegate.swift */,
-				27F1EB4D24B14C2100F97387 /* ViewController.swift */,
-				27F1EB4F24B14C2200F97387 /* Main.storyboard */,
-				27F1EB5224B14C2400F97387 /* Assets.xcassets */,
-				27F1EB5424B14C2400F97387 /* LaunchScreen.storyboard */,
 				27F1EB5724B14C2400F97387 /* Info.plist */,
+				27F1EB5424B14C2400F97387 /* LaunchScreen.storyboard */,
+				27F1EB4F24B14C2200F97387 /* Main.storyboard */,
+				27F1EB4B24B14C2100F97387 /* SceneDelegate.swift */,
 			);
 			path = ApoloTest;
 			sourceTree = "<group>";
@@ -128,6 +283,23 @@
 			path = ApoloTestUITests;
 			sourceTree = "<group>";
 		};
+		8AC738339FD27D5149D2AA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16FC5DBACB59461D102ED606 /* Pods_ApoloTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E747B199E883F3FBEBA6F8F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				654DB2E02CD0F9E588AEF71F /* Pods-ApoloTest.debug.xcconfig */,
+				0ED1775F52AEB4440F3F81C9 /* Pods-ApoloTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F1EB7024B14C2500F97387 /* Build configuration list for PBXNativeTarget "ApoloTest" */;
 			buildPhases = (
+				A1AC47AEB6C9FCDC9CDCFCE0 /* [CP] Check Pods Manifest.lock */,
 				27F1EB4224B14C2100F97387 /* Sources */,
 				27F1EB4324B14C2100F97387 /* Frameworks */,
 				27F1EB4424B14C2100F97387 /* Resources */,
+				6B97124BAAC6AC341E183D68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +406,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A9B95224B1767E008126FC /* apoloItemTableViewCell.xib in Resources */,
+				27CB587724B2A08500E1D367 /* rocketFast.json in Resources */,
 				27F1EB5624B14C2400F97387 /* LaunchScreen.storyboard in Resources */,
 				27F1EB5324B14C2400F97387 /* Assets.xcassets in Resources */,
+				27A9B95724B18120008126FC /* Detail.storyboard in Resources */,
 				27F1EB5124B14C2200F97387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +431,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B97124BAAC6AC341E183D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApoloTest/Pods-ApoloTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApoloTest/Pods-ApoloTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApoloTest/Pods-ApoloTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AC47AEB6C9FCDC9CDCFCE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApoloTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27F1EB4224B14C2100F97387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F1EB4E24B14C2100F97387 /* ViewController.swift in Sources */,
+				27A9B95524B180F6008126FC /* DetailViewController.swift in Sources */,
+				270CA7C024B151E6002FF8BB /* MetaDataModel.swift in Sources */,
+				27F1EB4E24B14C2100F97387 /* HomeViewController.swift in Sources */,
+				27CB587424B29D3100E1D367 /* SplashViewController.swift in Sources */,
+				270CA7C624B15C06002FF8BB /* ApoloListViewModel.swift in Sources */,
+				270CA7C424B15661002FF8BB /* NetworkingDataManager.swift in Sources */,
+				27CB586E24B2075A00E1D367 /* BaseViewController.swift in Sources */,
+				27A9B95124B1767E008126FC /* apoloItemTableViewCell.swift in Sources */,
+				27CB587124B2262600E1D367 /* UserDefaultsHelper.swift in Sources */,
+				270CA7C924B16041002FF8BB /* Constants.swift in Sources */,
 				27F1EB4A24B14C2100F97387 /* AppDelegate.swift in Sources */,
 				27F1EB4C24B14C2100F97387 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +660,7 @@
 		};
 		27F1EB7124B14C2500F97387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654DB2E02CD0F9E588AEF71F /* Pods-ApoloTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +679,7 @@
 		};
 		27F1EB7224B14C2500F97387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED1775F52AEB4440F3F81C9 /* Pods-ApoloTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
